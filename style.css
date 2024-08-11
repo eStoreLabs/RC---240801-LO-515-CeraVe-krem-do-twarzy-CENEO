@@ -1,0 +1,540 @@
+#es-cerave.es-cerave {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #252525;
+  background-color: #fff;
+}
+#es-cerave.es-cerave * {
+  box-sizing: border-box;
+}
+#es-cerave.es-cerave h2,
+#es-cerave.es-cerave h3,
+#es-cerave.es-cerave h4,
+#es-cerave.es-cerave h5 {
+  font-family: "Roboto", sans-serif;
+  color: #111;
+}
+#es-cerave.es-cerave .es-kv {
+  position: relative;
+  background-image: url(./static/img/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+#es-cerave.es-cerave .es-kv__logo {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+#es-cerave.es-cerave .es-kv__images-container {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+#es-cerave.es-cerave .es-kv__images-wrapper {
+  position: relative;
+  max-width: 400px;
+  opacity: 0;
+  animation: slidedown 0.6s ease forwards;
+  animation-delay: 0.3s;
+}
+#es-cerave.es-cerave .es-kv__label {
+  position: absolute;
+  top: 55%;
+  left: 24px;
+  width: 120px;
+}
+#es-cerave.es-cerave .es-kv__product {
+  width: 100%;
+}
+#es-cerave.es-cerave .es-kv__header, #es-cerave.es-cerave .es-kv__subheader, #es-cerave.es-cerave .es-kv__text {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+#es-cerave.es-cerave .es-kv__header {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0777bd;
+}
+#es-cerave.es-cerave .es-kv__subheader {
+  margin: 20px 0;
+}
+#es-cerave.es-cerave .es-kv__subheader, #es-cerave.es-cerave .es-kv__text {
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
+}
+#es-cerave.es-cerave .es-kv__subheader span, #es-cerave.es-cerave .es-kv__text {
+  color: #0777bd;
+}
+#es-cerave.es-cerave .es-kv__text-container {
+  margin: 20px;
+  opacity: 0;
+  animation: slideright 0.6s ease forwards;
+  animation-delay: 0.3s;
+}
+#es-cerave.es-cerave .es-solution {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#es-cerave.es-cerave .es-solution__header, #es-cerave.es-cerave .es-solution__subheader, #es-cerave.es-cerave .es-solution__text {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+}
+#es-cerave.es-cerave .es-solution__header, #es-cerave.es-cerave .es-solution__subheader {
+  font-weight: bold;
+}
+#es-cerave.es-cerave .es-solution__header {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+#es-cerave.es-cerave .es-solution__subheader {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+#es-cerave.es-cerave .es-solution__text {
+  font-weight: 300;
+  font-size: 18px;
+  font-size: 17px;
+}
+#es-cerave.es-cerave .es-solution__single {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#es-cerave.es-cerave .es-solution__icon {
+  margin: 20px 0;
+}
+#es-cerave.es-cerave .es-band__icons {
+  background: #a1cbe6;
+  margin: 40px 0;
+  padding: 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 244px;
+}
+#es-cerave.es-cerave .es-band__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 180px;
+}
+#es-cerave.es-cerave .es-band__text, #es-cerave.es-cerave .es-band__disclaimer {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+#es-cerave.es-cerave .es-band__disclaimer {
+  margin: 40px 20px;
+  line-height: 1.3;
+}
+#es-cerave.es-cerave .es-band__disclaimer-title {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  font-size: 22px;
+}
+#es-cerave.es-cerave .es-ingredients__text-container {
+  margin: 40px 20px;
+}
+#es-cerave.es-cerave .es-ingredients__header {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+#es-cerave.es-cerave .es-ingredients__single {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px 0;
+  margin-bottom: 30px;
+}
+#es-cerave.es-cerave .es-ingredients__icon {
+  width: 80px;
+  z-index: 3;
+}
+#es-cerave.es-cerave .es-ingredients__icon-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 7px;
+  width: 100%;
+}
+#es-cerave.es-cerave .es-ingredients__line {
+  max-width: 100%;
+  margin-left: -20px;
+  height: 2px;
+}
+#es-cerave.es-cerave .es-ingredients__label {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 0 5px 15px;
+}
+#es-cerave.es-cerave .es-ingredients__text {
+  font-weight: 300;
+  font-size: 18px;
+  font-size: 16px;
+  padding: 5px 0 0 15px;
+  margin: 0;
+  width: 100%;
+}
+#es-cerave.es-cerave .es-ingredients__image {
+  width: 100%;
+  max-height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: right;
+     object-position: right;
+  margin-bottom: 40px;
+}
+#es-cerave.es-cerave .es-ingredients__image--desktop {
+  display: none;
+}
+#es-cerave.es-cerave .es-technology {
+  margin: 0;
+  padding: 0;
+}
+#es-cerave.es-cerave .es-technology__single {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#es-cerave.es-cerave .es-technology__single:first-of-type .es-technology__text-container {
+  background-color: #045181;
+}
+#es-cerave.es-cerave .es-technology__single:nth-of-type(2) .es-technology__text-container {
+  background-color: #045181;
+}
+#es-cerave.es-cerave .es-technology__img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#es-cerave.es-cerave .es-technology__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px 10px;
+}
+#es-cerave.es-cerave .es-technology__header, #es-cerave.es-cerave .es-technology__text {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  text-align: left;
+}
+#es-cerave.es-cerave .es-technology__header {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+#es-cerave.es-cerave .es-technology__text {
+  font-weight: 300;
+  font-size: 18px;
+  font-size: 16px;
+}
+#es-cerave.es-cerave .es-products {
+  margin: 60px 20px;
+}
+#es-cerave.es-cerave .es-products__header, #es-cerave.es-cerave .es-products__product-header, #es-cerave.es-cerave .es-products__text {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+}
+#es-cerave.es-cerave .es-products__header {
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+#es-cerave.es-cerave .es-products__product-header {
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#es-cerave.es-cerave .es-products__text {
+  font-weight: 300;
+  font-size: 18px;
+}
+#es-cerave.es-cerave .es-products__single {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#es-cerave.es-cerave .es-products__single:first-of-type span {
+  color: #7ec658;
+  font-weight: bold;
+}
+#es-cerave.es-cerave .es-products__single:nth-of-type(2) span {
+  color: #0777bd;
+  font-weight: bold;
+}
+#es-cerave.es-cerave .es-products__image {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+#es-cerave.es-cerave .es-products__button {
+  background-color: #7ec658;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  #es-cerave.es-cerave .es-kv__header {
+    font-size: 34px;
+  }
+  #es-cerave.es-cerave .es-kv__content-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #es-cerave.es-cerave .es-kv__text-container, #es-cerave.es-cerave .es-kv__images-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #es-cerave.es-cerave .es-kv__images-container {
+    padding: 40px 0 0 0;
+    width: 60%;
+  }
+  #es-cerave.es-cerave .es-kv__images-wrapper {
+    max-width: 450px;
+  }
+  #es-cerave.es-cerave .es-kv__text-container {
+    margin: 206px 0 38px 20px;
+    width: 40%;
+  }
+  #es-cerave.es-cerave .es-kv__label {
+    position: absolute;
+    top: 56%;
+    left: 32px;
+  }
+  #es-cerave.es-cerave .es-kv__logo {
+    left: 40px;
+  }
+  #es-cerave.es-cerave .es-solution {
+    margin: 65px 0 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  #es-cerave.es-cerave .es-solution__single {
+    max-width: 380px;
+    margin: 0;
+  }
+  #es-cerave.es-cerave .es-solution__single:first-of-type {
+    padding: 0 46px;
+  }
+  #es-cerave.es-cerave .es-products__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  #es-cerave.es-cerave .es-products__single {
+    margin: 0 5%;
+  }
+  #es-cerave.es-cerave .es-band__icons {
+    margin-top: 100px;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: center;
+  }
+  #es-cerave.es-cerave .es-band__disclaimer {
+    margin: 40px 4% 40px 4%;
+  }
+  #es-cerave.es-cerave .es-band__disclaimer-title {
+    margin: 0;
+    font-size: 30px;
+  }
+  #es-cerave.es-cerave .es-technology__text-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #es-cerave.es-cerave .es-technology__header {
+    margin-top: 20px;
+    align-self: flex-start;
+    padding-left: 30px;
+  }
+  #es-cerave.es-cerave .es-technology__text {
+    margin-bottom: 20px;
+  }
+  #es-cerave.es-cerave .es-technology__text--left {
+    max-width: 300px;
+  }
+  #es-cerave.es-cerave .es-technology__text--right {
+    max-width: 300px;
+  }
+  #es-cerave.es-cerave .es-ingredients {
+    display: flex;
+  }
+  #es-cerave.es-cerave .es-ingredients__text-container, #es-cerave.es-cerave .es-ingredients__image-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #es-cerave.es-cerave .es-ingredients__image {
+    margin-bottom: 0;
+  }
+  #es-cerave.es-cerave .es-ingredients__image--mobile {
+    display: none;
+  }
+  #es-cerave.es-cerave .es-ingredients__image--desktop {
+    display: block;
+  }
+  #es-cerave.es-cerave .es-ingredients__icon {
+    display: none;
+  }
+  #es-cerave.es-cerave .es-ingredients__text-container {
+    margin: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #es-cerave.es-cerave .es-ingredients__header {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 850px) {
+  #es-cerave.es-cerave .es-band {
+    position: relative;
+  }
+  #es-cerave.es-cerave .es-band::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 485px;
+    top: -50px;
+    transform: translateX(-45%);
+    background: url(./static/img/band-bg.png) left top no-repeat;
+    background-size: contain;
+  }
+  #es-cerave.es-cerave .es-band__icons {
+    justify-content: right;
+  }
+  #es-cerave.es-cerave .es-band__disclaimer-title {
+    font-size: 27px;
+  }
+  #es-cerave.es-cerave .es-band__disclaimer {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  #es-cerave.es-cerave .es-products__image {
+    max-width: 175px;
+    min-height: 345px;
+    margin-bottom: 43px;
+  }
+  #es-cerave.es-cerave .es-products__text {
+    width: 324px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 930px) {
+  #es-cerave.es-cerave .es-band__icons {
+    margin-right: 50px;
+  }
+  #es-cerave.es-cerave .es-band::before {
+    transform: translateX(-25%);
+  }
+  #es-cerave.es-cerave .es-band__icon {
+    width: 77px;
+    height: 77px;
+  }
+  #es-cerave.es-cerave .es-kv__logo {
+    top: 155px;
+    left: 20px;
+  }
+  #es-cerave.es-cerave .es-kv__label {
+    width: 130px;
+  }
+  #es-cerave.es-cerave .es-kv__images-container {
+    padding: 40px 0 0 40px;
+  }
+  #es-cerave.es-cerave .es-kv__text-container {
+    width: 33%;
+  }
+  #es-cerave.es-cerave .es-kv__content-wrapper {
+    justify-content: space-between;
+  }
+  #es-cerave.es-cerave .es-ingredients {
+    margin-bottom: 40px;
+  }
+  #es-cerave.es-cerave .es-ingredients__text-container {
+    width: 45%;
+  }
+  #es-cerave.es-cerave .es-ingredients__image-container {
+    width: 55%;
+  }
+  #es-cerave.es-cerave .es-ingredients__label {
+    margin: 0 0 5px 20px;
+    margin-left: 0;
+  }
+  #es-cerave.es-cerave .es-ingredients__text {
+    padding: 5px 0 0 20px;
+    padding-left: 0;
+  }
+  #es-cerave.es-cerave .es-solution__text {
+    font-size: 18px;
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=style.css.map */
